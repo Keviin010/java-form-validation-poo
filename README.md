@@ -23,7 +23,7 @@ Este proyecto implementa un sistema de formularios en Java que permite:
 - `ElementoForm`: clase abstracta base
 - `InputForm`, `TextAreaForm`, `SelectForm`: implementaciones concretas
 - `Validador`: clase abstracta para validaciones
-- Validadores concretos como `Requerido`, `Email`, `Largo`, `Número`
+- Validadores concretos como `Requerido`, `Email`, `Largo`, `Número`.
 
 ## Ejecución
 Ejecutar la clase `AppForm` para ver la generación del formulario y las validaciones en consola.
