@@ -10,7 +10,7 @@ El sistema permite:
 - Definir distintos tipos de campos de formulario (Input, TextArea, Select)
 - Renderizar los campos como HTML
 - Aplicar validaciones reutilizables y desacopladas
-- Encadenar configuraciones mediante un estilo Fluent API
+- Encadenar configuraciones mediante un estilo Fluent API.
 
 ## Arquitectura del proyecto
 - ElementoForm: clase abstracta base para los campos
