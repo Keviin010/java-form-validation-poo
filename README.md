@@ -7,16 +7,16 @@ Diseñar un sistema extensible de formularios que permita crear distintos tipos 
 
 ## Descripción general
 El sistema permite:
-- Definir distintos tipos de campos de formulario (Input, TextArea, Select)
-- Renderizar los campos como HTML
-- Aplicar validaciones reutilizables y desacopladas
+- Definir distintos tipos de campos de formulario (Input, TextArea, Select).
+- Renderizar los campos como HTML.
+- Aplicar validaciones reutilizables y desacopladas.
 - Encadenar configuraciones mediante un estilo Fluent API.
 
 ## Arquitectura del proyecto
-- ElementoForm: clase abstracta base para los campos
-- InputForm, TextAreaForm, SelectForm: implementaciones concretas
-- Validador: clase abstracta para las reglas de validación
-- Validadores concretos: Requerido, Email, Largo, Numero
+- ElementoForm: clase abstracta base para los campos.
+- InputForm, TextAreaForm, SelectForm: implementaciones concretas.
+- Validador: clase abstracta para las reglas de validación.
+- Validadores concretos: Requerido, Email, Largo, Numero.
 
 La arquitectura está orientada a facilitar la extensión del sistema sin modificar la lógica central.
 
