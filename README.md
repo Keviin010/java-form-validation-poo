@@ -39,4 +39,4 @@ Este proyecto forma parte del proceso de aprendizaje de Java backend y está enf
 ## Posibles mejoras
 - Integrar el sistema en un contexto de aplicación web real
 - Adaptar las validaciones a una arquitectura REST
-- Conectar el sistema con persistencia de datos
+- Conectar el sistema con persistencia de datos.
